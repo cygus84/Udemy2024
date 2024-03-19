@@ -2,6 +2,7 @@ package app;
 
 import app.challenge.InputCalculator;
 import app.challenge.MinMaxChallenge;
+import app.challenge.PaintJob;
 import app.e70.Episode70;
 import app.e71.Episod71;
 import app.e73.Ep73;
@@ -28,6 +29,8 @@ public class Start {
 		//new MinMaxChallenge(); //done
 		
 		// new InputCalculator(); // done
+		
+		// new PaintJob(); // done
 	}
 
 }

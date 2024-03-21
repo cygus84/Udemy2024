@@ -1,5 +1,6 @@
 package app;
 
+import app.challenge.Customer;
 import app.challenge.Person;
 import app.challenge.SimpleCalculator;
 import app.objectOrientedChallenge.BankAccount;
@@ -33,6 +34,29 @@ public class Start {
 //		per.setLastName("");
 //		per.setAge(10);
 //		System.out.println("fullName" + per.getFullName());
+		
+				
+//		System.out.println("--------------------" );
+//		Customer customer = new Customer("Tim", 1000, "Tim@.com");
+//		System.out.println("Name:" + customer.getName());
+//		System.out.println("credit limit:" + customer.getCreditLimit() + "$");
+//		System.out.println("email:" + customer.getEmailAddress());
+//		System.out.println("--------------------" );
+//		Customer secoundCustomer = new Customer("Alan", "Mon@.com");
+//		System.out.println("Name:" + secoundCustomer.getName());
+//		System.out.println("credit limit:" + secoundCustomer.getCreditLimit() + "$");
+//		System.out.println("email:" + secoundCustomer.getEmailAddress());
+//		System.out.println("--------------------" );
+//		Customer noCustomer = new Customer();
+//		System.out.println("Name:" + noCustomer.getName());
+//		System.out.println("credit limit:" + noCustomer.getCreditLimit() + "$");
+//		System.out.println("email:" + noCustomer.getEmailAddress());
+//		System.out.println("--------------------" );
+		
+		
+		
+		
+		
 		
 	}
 

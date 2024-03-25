@@ -1,8 +1,11 @@
 package app;
 
 import app.challenge.Customer;
+import app.challenge.LPAStudent;
 import app.challenge.Person;
 import app.challenge.SimpleCalculator;
+import app.challenge.Student;
+import app.challenge.Wall;
 import app.objectOrientedChallenge.BankAccount;
 
 public class Start {
@@ -54,8 +57,36 @@ public class Start {
 //		System.out.println("--------------------" );
 		
 		
+		// ep 89.The POJO
 		
+//		for(int i = 1; i <= 5; i++) {
+//		
+//		LPAStudent st = new LPAStudent("A000" + i, 
+//				switch(i) {
+//				case 1 -> "Marry";
+//				case 2 -> "Calor";
+//				case 3 -> "Harry";
+//				case 4 -> "Tim";
+//				case 5 -> "Lisa"; 
+//				default -> "Anonymous";				
+//				}, 
+//				"05/11/1985", 
+//				"Java Masterclass");
+//		System.out.println(st);
+//		}
+//		
+//		Student pojoStudent = new Student("S923006", "Ann", "05/11/1985", "Java Masterclass");
+//		LPAStudent recordStudent = new LPAStudent("S923007", "Bill", "05/11/1985", "Java Masterclass");
+//		System.out.println(pojoStudent);
+//		System.out.println(recordStudent);
+//		
 		
+		Wall wall = new Wall(5, 4);
+		System.out.println("area= " + wall.getArea());
+		wall.setHeight(-1.5);
+		System.out.println("width= " + wall.getWidth());
+		System.out.println("height= " + wall.getHeight());
+		System.out.println("area= " + wall.getArea());
 		
 		
 	}
